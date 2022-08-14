@@ -158,7 +158,7 @@ footer {
 /* ----------buttomFloat---------- */
 button#buttomFloat,
 button#buttomFloat svg {
-   background-color:var(--bisque-light);
+   background-color:var(--bisque-100);
    border:none;
 }
 
@@ -191,10 +191,18 @@ button#buttomFloat svg {
 body.newStyle {
     background: var(--bisque-light);
 }
-
-button#buttomFloat svg .newStyle {
+    
+button#buttomFloat .newStyle {
     background: var(--bisque-light);
 }
+
+
+
+button#buttomFloat svg .newStyle {
+   background-color:var(--bisque-light);
+   border:none;
+}
+
 
 header span.newStyle {
     color: var(--blue-500);
@@ -202,4 +210,4 @@ header span.newStyle {
 
 section h2.newStyle {
     background: var(--red-500);
-}
+} 
