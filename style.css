@@ -9,7 +9,7 @@
 :root {
     --bisque-500: #FED7AA;
     --bisque-100: #FFEDD5;
-    --bisque-light: #D96941;
+    --bisque-light: #e2ac3f;
 
     --green-100:#2E5902 ;
     --green-500: #214001;
@@ -41,7 +41,6 @@ body,input,textarea,select,button {
 body {
     background-color: var(--bisque-100);
     overflow: overlay;
-    transition: background 0.5s;
 }
 
 html,
@@ -61,7 +60,6 @@ a {
 
 button {
     cursor: pointer;
-    transition: background 0.5s;
 }
 
 /* ----------HEADER---------- */
@@ -103,7 +101,7 @@ header p:hover{
 
 header h1 span {
     color: var(--orange-light);
-    transition: color 0.5s;
+    transition: color 0.3s;
 }
 
 
@@ -127,7 +125,6 @@ section h2 {
     background-color: var(--bisque-500);
     margin-bottom: 2.4rem;
     border-radius: 0.5rem;
-    transition: background 0.5s;
 
 }
 
@@ -188,26 +185,36 @@ button#buttomFloat svg {
 
 /* -----------newStyle----------- */
 
+/* -------body*/
 body.newStyle {
     background: var(--bisque-light);
 }
-    
-button#buttomFloat .newStyle {
+/* -------header*/
+
+header span.newStyle {
+    color: #ffffff;
+}
+
+header span.newStyle2 {
+    color: #3b657a;
+}
+
+/* -------section*/
+
+section h2.newStyle {
+    color: #3b657a;
+} 
+
+section ul li div p.newStyle {
+    color: #ffffff;
+}
+
+/* -------buttonFloat*/
+
+
+
+button#buttomFloat .newStyle,
+button#buttomFloat.newStyle {
     background: var(--bisque-light);
 }
 
-
-
-button#buttomFloat svg .newStyle {
-   background-color:var(--bisque-light);
-   border:none;
-}
-
-
-header span.newStyle {
-    color: var(--blue-500);
-}
-
-section h2.newStyle {
-    background: var(--red-500);
-} 
